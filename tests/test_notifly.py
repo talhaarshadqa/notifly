@@ -1,7 +1,8 @@
 import pytest
+
+from notifly.handlers import handle_command
 from notifly.parse import parse_duration, parse_reminder
 from notifly.store import Store
-from notifly.handlers import handle_command
 
 
 @pytest.fixture

@@ -1,5 +1,6 @@
 """python-telegram-bot adapter. Imported lazily so the package installs tokenless."""
 from __future__ import annotations
+
 import os
 
 from .handlers import handle_command
